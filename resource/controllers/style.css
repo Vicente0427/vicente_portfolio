@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background: black;
+    /*background: url(../../../Downloads/WallpaperDog-10926470.jpg);*/
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar .logo{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.navbar ul{
+    display: flex;
+    /*width: 100%;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;*/
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+
+.navbar ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.navbar ul li:hover a,
+.navbar ul li.active a{
+    background-color: yellow;
+}
+
+.home{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: white;
+}
+
+.home-info{
+    padding-right: 100px;
+}
+
+.home-info h1{
+    font-size: 40px;
+}
+
+.home-info h3{
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.home-info p{
+    font-size: 15px;
+    margin: 10px 0 25px;
+}
+
+.home-info .btn-sci{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    color: black;
+    display: inline-block;
+    background:slateblue;
+    border: 2px solid slateblue;
+    border-radius: 40px;
+    box-shadow: 0 0 10px slateblue;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn:hover{
+    background: transparent;
+    box-shadow: none;
+    color: gold;
+}
+
+.home-info .btn-sci .sci{
+    margin-left: 15px;
+}
+
+.home-info .btn-sci .sci a{
+    color: blue;
+    border: 2px solid gold;
+    border-radius: 50%;
+    display: inline-flex;
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 8px;
+    transition: .5s;
+}
+
+.home-info .btn-sci .sci a:hover{
+    background: yellow;
+    box-shadow: 0 0 10px yellow;
+    color: black;
+}
+
+.home-img .img-box{
+    background-color: blue;
+    height: 32vw;
+    width: 32vw;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.home-img .img-box .img-item{
+    display: flex;
+    height: 100%;
+    background: slateblue;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+}
+
+.home-img .img-box .img-item img{
+    display: block;
+    object-fit: cover;
+    position: absolute;
+    width: 68%;
+    top: 5px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2ren;
+    background: blue;
+}
+
+.about-img img{
+    width: 30vw;
+    font-size: 5rem;
+}
+
+.heading{
+    text-align: center;
+}
+
+.about-content h2{
+    color: green;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content p{
+    color: white;
+    font: size 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.about-content .br{
+    color: white;
+    font: size 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+
+/*.about{
+    font-size: 20px;
+    background: url(../../../Downloads/WallpaperDog-10926470.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 8%;
+    width: 100%;
+    min-height: 100vh;
+
+    img{
+        float: left;
+        border-radius: 10px;
+        max-width: 20%;
+        height: auto;
+    }
+
+    @keyframes picture{
+    from{margin-left: 50%;}
+    to{margin-right: 50%;}
+    }
+}*/
+
+.second-photo{
+    background-color: limegreen;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding: 4px;
+    justify-content: right;
+    margin: auto;
+    transform: scale(1);
+    img{
+        float: right;
+        border-radius: 5px;
+        max-width: 10.5%;
+        height: auto;
+    }
+}
+
+.third-photo{
+    background-color: indianred;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding: 4px;
+    justify-content: center;
+}
+
+.contact{
+    background-color: chartreuse;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding:4px;
+}
